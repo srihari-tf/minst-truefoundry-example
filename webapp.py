@@ -17,4 +17,4 @@ def recognize_digit(image):
 gr.Interface(fn=recognize_digit,
             inputs="sketchpad",
             outputs=gr.outputs.Label(num_top_classes=3),
-            title="MNIST Sketchpad").launch(server_name="0.0.0.0", server_port=8080)
+            title="Digit Predictor").launch(server_name="0.0.0.0", server_port=8080)
