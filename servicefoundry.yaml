@@ -13,7 +13,7 @@ service:
   workspace: v1:tfy-dub-euwe1-production:demo-workspace
   env:
     - name: TFY_RUN_ID
-      value: ff88a7f22c9f4cacbda86f79328f0e79
+      value: 7745b03f57944314bbaf5d90d421a9da
   ports:
   - container_port: 8080
     protocol: TCP
