@@ -9,7 +9,7 @@ run = mlf_client.get_run(os.environ.get('TFY_RUN_ID'))
 model = run.get_model()
 
 def recognize_digit(image):
-    image = image.reshape(1, 28, 28, 1)  # add a batch dimension
+    image = image.reshape(1, 28, 28, 1)  #add a batch dimension
     prediction = model.predict(image).tolist()[0]
     run.log_prediction(pd.DataFrame(), prediction, '<unique-id-for-current-image>')
     return {str(i): prediction[i] for i in range(10)}
