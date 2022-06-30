@@ -1,0 +1,7 @@
+maturin==0.12.20
+gradio
+servicefoundry
+protobuf
+mlfoundry
+tensorflow
+pandas
