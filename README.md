@@ -1,5 +1,7 @@
 # mnist-truefoundry-example
 
+For more context, watch this short [video](https://www.loom.com/share/42e5fe3140004db1a1045402365943b8).
+
 If you clone this repo, do these things as well:
 1. Replace the value of env var `TFY_RUN_ID` in `servicefoundry.yaml` with a run id from your own account. If you have any experiments, you can find your run id from the [TrueFoundry dashboard](https://app.truefoundry.com/mlfoundry)
 2. Replace the workspace FQN in `servicefoundry.yaml` with one from your own account. You can create a new workspace or find the FQN of an existing workspace from the [dashboard](https://app.truefoundry.com/workspace)
